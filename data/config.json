@@ -1,0 +1,9 @@
+{
+	"test":{
+			"appUrl": "https://travis-ci.org/"
+		},
+		
+	"dev":{
+			"appUrl": "https://wego.here.com"
+		}
+}
