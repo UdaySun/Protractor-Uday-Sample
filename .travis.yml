@@ -17,3 +17,9 @@ install:
   - npm install
 script:
   - grunt protractor:test
+notifications:
+  email:
+    recipients:
+      - dondapati.uday@gmail.com
+      on_success: never # default: change
+      on_failure: always # default: always
