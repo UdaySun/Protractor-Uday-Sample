@@ -43,8 +43,8 @@ maxInstances: 2
 	//
 	// Define which tests should execute
 	specs : [ 
-	          'features/PASLogin.feature',
-	          'features/search.feature'
+	          'features/PASLogin.feature'
+	          //'features/search.feature'
 	       ],
 
 	//Define which tests should be excluded from execution.
@@ -64,7 +64,7 @@ maxInstances: 2
 		require : [ 
 		            'features/support/env.js', 
 		            'features/support/hooks.js',
-		            'features/step_definitions/PASLogin_Steps.js'
+		            'features/step_definitions/Login_Steps.js'
 		],
 		tags : false,
 		format : 'pretty',
