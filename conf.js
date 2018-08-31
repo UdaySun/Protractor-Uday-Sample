@@ -30,11 +30,11 @@ exports.config = {
 
 	//},
 	capabilities: {
-  'browserName': 'firefox',
-   marionette : true,
-    acceptInsecureCerts : true,
-    shardTestFiles: true,
-maxInstances: 2
+  'browserName': 'chrome',
+ //  marionette : true,
+ //   acceptInsecureCerts : true,
+ //   shardTestFiles: true,
+//maxInstances: 2
   //'moz:firefoxOptions': {
    // 'args': ['--safe-mode']
   //}
