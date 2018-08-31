@@ -3,12 +3,6 @@ dist: trusty
 language: node_js
 node_js:
   - "10"
-notifications:
-  email:
-    recipients:
-      - "dondapati.uday@gmail.com"
-      on_success: never # default: change
-      on_failure: always # default: always
 before_install:
   - wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
   - sudo dpkg -i google-chrome*.deb  
