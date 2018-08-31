@@ -43,7 +43,7 @@ exports.config = {
 	//
 	// Define which tests should execute
 	specs : [ 
-	          'features/PASLogin.feature'
+	          'features/Login.feature'
 	          //'features/search.feature'
 	       ],
 
