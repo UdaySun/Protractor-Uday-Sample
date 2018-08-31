@@ -4,7 +4,7 @@ Feature: Verifying Portal Url
     
     
         
-    Scenario: Unified Portal Login
+    Scenario: Login
         Given I will navigate portal url "https://travis-ci.org/" in "firefox" browser
         
        
