@@ -15,4 +15,5 @@ before_script:
 install:
   - npm install
 script:
+  - webdriver-manager update
   - grunt protractor:test
