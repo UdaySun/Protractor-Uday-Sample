@@ -1,0 +1,47 @@
+[
+  {
+    "description": "    As a user",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "Verifying Portal Url",
+    "tags": [],
+    "uri": "C:\\Users\\IBM_ADMIN\\git\\Protractor-Uday-Sample\\features\\Login.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Login",
+        "tags": [],
+        "id": "verifying-portal-url;login",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I will navigate portal url \"https://travis-ci.org/\" in \"firefox\" browser",
+            "result": {
+              "status": "passed",
+              "duration": 3
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\IBM_ADMIN\\git\\Protractor-Uday-Sample\\features\\step_definitions\\Login_Steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 1
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\IBM_ADMIN\\git\\Protractor-Uday-Sample\\features\\support\\hooks.js:48"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "verifying-portal-url"
+  }
+]
