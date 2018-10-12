@@ -19,7 +19,7 @@
   },
   "scripts": {
     "start": "node ./bin/www",
-    "test": "grunt travis"
+    "test": "protractor conf.js"
   },
   "author": "Uday Dondapati",
   "license": "MIT"
